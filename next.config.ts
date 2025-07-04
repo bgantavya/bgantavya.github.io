@@ -1,13 +1,13 @@
 import type { NextConfig } from "next";
-const isProd = process.env.NODE_ENV === 'production';
+
 const nextConfig: NextConfig = {
-  /* config options here */
-   reactStrictMode: true,
+  output: 'export',
+  reactStrictMode: true,
   images: {
-    unoptimized: true, // Disable default image optimization
+    unoptimized: true,
   },
-  assetPrefix: isProd ? '/your-repository-name/' : '',
-  basePath: isProd ? '/your-repository-name' : '',
-  output: 'export'
+  assetPrefix: 'https://gantavya.me',
+  basePath: '',
 };
+
 export default nextConfig;
