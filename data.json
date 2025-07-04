@@ -1,0 +1,111 @@
+{
+    "experiences": [
+        {
+            "role": "M3 Coding Mentor",
+            "cname": "Let's Unbound",
+            "date": "Aug 2024 - Present",
+            "description":"falana"
+        },
+        {
+            "role": "Editorial Head",
+            "cname": "Alumni Association - GLAU",
+            "date": "Aug 2023 - Present",
+            "description":"falana"
+        },
+        {
+            "role": "Full-stack Developer",
+            "cname": "Promptly AI",
+            "date": "May 2025 - Aug 2025",
+            "description":"falana"
+        },
+        {
+            "role": "Full-stack Developer (EWYL)",
+            "cname": "GLA University",
+            "date": "Oct 2024 - Jan 2025",
+            "description":"falana"
+        },
+        {
+            "role": "Sales & Marketing Intern",
+            "cname": "Youth Unlock Educare",
+            "date": "Aug 2024 - Sep 2024",
+            "description":"falana"
+        }
+    ],
+    
+    "projects": [
+        {
+            "name": "Stuti",
+            "docsLink": "",
+            "projectLink": "",
+            "imageSrc": "",
+            "description": "An agile functional assistive AI agent with capabilities of execution and schedule for Gantavya"
+        },
+        {
+            "name": "Trade It Up",
+            "docsLink": "",
+            "projectLink": "",
+            "imageSrc": "",
+            "description": "A real-time exchange platform made up keeping in mind for the Top 1% to trade on antique items"
+        },
+        {
+            "name": "Virutal Braj Museum",
+            "docsLink": "",
+            "projectLink": "",
+            "imageSrc": "",
+            "description": "A VR Technology based platform making Braj Culture accessible globally"
+        },
+        {
+            "name": "Braj Estate",
+            "docsLink": "",
+            "projectLink": "https://brajplots.vercel.app",
+            "imageSrc": "",
+            "description": "An interface to BUY, SELL & RENT properties of Braj region"
+        },
+        {
+            "name": "Style Sync",
+            "docsLink": "",
+            "projectLink": "",
+            "imageSrc": "",
+            "description": "Personality & bodytype based personal styler and advisor"
+        },
+        {
+            "name": "Python Mastery",
+            "docsLink": "oct 2024- present",
+            "projectLink": "Coding Mentor",
+            "imageSrc": "",
+            "description": "120 day roadmap with resources to learn python from scratch to building up an chatbot through 50+ project based learning"
+        },
+        {
+            "name": "OOPs its DSA",
+            "docsLink": "oct 2024- present",
+            "projectLink": "Coding Mentor",
+            "imageSrc": "",
+            "description": "My personal DSA & Interview prep resources with a dedicated tracksheet with solution of over 200 Leetcode Problems in C, C++, C#, Java, JavaScript, Python, TypeScript"
+        },
+        {
+            "name": "D Web Tech",
+            "docsLink": "oct 2024- present",
+            "projectLink": "Coding Mentor",
+            "imageSrc": "",
+            "description": "365 day journey to start with WebD(HTML, CSS, JS) to full-stack(Frontend, Backend, Database, DevOps, Cloud, AI)"
+        },
+        {
+            "name": "My Family",
+            "docsLink": "oct 2024- present",
+            "projectLink": "Coding Mentor",
+            "imageSrc": "",
+            "description": "ddefeijwjf iejf iowojiwo hoiwhg ihgo ighowighighwogihoirghgihighoigh e giwghi wghi ged"
+        }
+    ],
+
+    "tools": [
+        {
+            "name": "Tool 1",
+            "docsLink": "description for Tool 1"
+        },
+        {
+            "name": "Tool 2",
+            "docsLink": "description for Tool 2"
+        }
+    ]
+}
