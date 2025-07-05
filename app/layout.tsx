@@ -45,7 +45,6 @@ export const metadata: Metadata = {
     icon: './favicon.ico',
     shortcut: './favicon.ico',
   },
-  themeColor: '#0f172a',
   openGraph: {
     title: 'Gantavya Bansal | Full-Stack Developer & Mentor',
     description: 'Explore projects, and tech leadership of Gantavya Bansal. Full-stack web developer, community builder, and AI problem solver.',
