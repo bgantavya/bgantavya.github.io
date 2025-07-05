@@ -1,15 +1,12 @@
 {
   "name": "portfolio",
   "version": "0.1.0",
-  "homepage": "https://bgantavya.github.io/",
   "private": true,
   "scripts": {
     "dev": "next dev --turbopack",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint",
-    "predeploy": "npm run build && echo > out/.nojekyll",
-    "deploy": "gh-pages -d out --repo=https://github.com/bgantavya/bgantavya.github.io.git"
+    "lint": "next lint"
   },
   "dependencies": {
     "@radix-ui/react-dialog": "^1.1.14",

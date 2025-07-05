@@ -22,7 +22,7 @@ export function Header(){
       </div>
 
       <div className="mr-2 hidden md:inline text-xl">
-        <a href="/gantavya_bansal_resume.pdf" target="_blank" rel="noopener noreferrer">
+        <a href="./gantavya_bansal_resume.pdf" target="_blank" rel="noopener noreferrer">
         <button className="px-4 mx-1 rounded-full border-2 border-fuchsia-600 pb-1">Resume</button>
         </a>
         <a href="#whoami">

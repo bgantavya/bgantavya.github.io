@@ -12,7 +12,7 @@ export function Profile() {
 
         <div>
       <Image
-        src="/img.jpg"
+        src="./img.jpg"
         alt="Profile Picture"
         width={350}
         height={250}
