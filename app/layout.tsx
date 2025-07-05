@@ -15,7 +15,7 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: 'Gantavya Bansal | Full-Stack Developer, Coding Mentor & Tech Community Builder',
   description: 'Explore the professional portfolio of Gantavya Bansal — Full-Stack Developer, AI Enthusiast, Coding Mentor, and Tech Community Leader from India. Discover projects, tutorials, and innovative solutions in web development, AI integration, and digital strategy.',
-  authors: [{ name: 'Gantavya Bansal', url: 'https://gantavya.me' }],
+  authors: [{ name: 'Gantavya Bansal', url: 'https:linkedin.com/in/bgantavya' }],
   keywords: [
     'Gantavya Bansal',
     'Full-Stack Developer',
@@ -72,7 +72,7 @@ export const metadata: Metadata = {
     },
   },
   alternates: {
-    canonical: 'https://gantavya.me',
+    canonical: 'https://bgantavya.github.io',
   },
 };
 
