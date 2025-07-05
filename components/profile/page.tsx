@@ -6,13 +6,12 @@ import {Github,Instagram, Linkedin, MailIcon,} from "lucide-react";
 export function Profile() {
   return (
     <div className="flex mt-20 w-[95%] mx-auto flex-col items-start justify-center min-h-screen p-2 sm:p-2 font-[family-name:var(--font-geist-sans)]">
-      <section>
-        
-      <div className="flex flex-col w-full md:flex-row-reverse items-center justify-between gap-10 md:gap-0 mx-auto  mb-10">
+
+      <div className="flex w-full flex-col md:flex-row-reverse items-center justify-between gap-10 md:gap-0 mx-auto  mb-10">
 
         <div>
       <Image
-        src="./img.jpg"
+        src="./icon.png"
         alt="Profile Picture"
         width={350}
         height={250}
@@ -26,9 +25,6 @@ export function Profile() {
       <p className="text-xl lg:text-2xl text-gray-500 shadow shadow-2">AI + Full-stack Developer | Coding Mentor</p>
       </div>
         </div>
-      </section>
-
-<article>
 
   <h1 id="whoami" className="mx-auto text-4xl p-2 mb-2 text-fuchsia-600 bg-stone-900/50 font-bold">{`>>> whoami`}</h1>
 <p className="text-lg text-justify bg-stone-900/50">
@@ -77,8 +73,6 @@ These projects have equipped him with adaptability and a strong agentic mindset.
   He even visited ARIES   
   <MagicPage text={`(Aryabhatta Research Institute of Observational Sciences) to explore AI integration in astronomical research and predictive modeling.`} />
 </p>
-</article>
-<section>
 
       <div className="text-xl flex flex-col sm:flex-row pt-5 sm:gap-0 gap-2 w-full justify-between">
 
@@ -128,7 +122,6 @@ These projects have equipped him with adaptability and a strong agentic mindset.
       </button>
 </a>
     </div>
-</section>
     <video src="intro.mp4" controls autoPlay loop muted className="rounded mx-auto max-w-xl mt-4"></video>
     </div>
   );

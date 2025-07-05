@@ -1,111 +1,253 @@
 {
     "experiences": [
-        {
-            "role": "M3 Coding Mentor",
-            "cname": "Let's Unbound",
-            "date": "Aug 2024 - Present",
-            "description":"falana"
-        },
-        {
-            "role": "Editorial Head",
-            "cname": "Alumni Association - GLAU",
-            "date": "Aug 2023 - Present",
-            "description":"falana"
-        },
-        {
-            "role": "Full-stack Developer",
-            "cname": "Promptly AI",
-            "date": "May 2025 - Aug 2025",
-            "description":"falana"
-        },
-        {
-            "role": "Full-stack Developer (EWYL)",
-            "cname": "GLA University",
-            "date": "Oct 2024 - Jan 2025",
-            "description":"falana"
-        },
-        {
-            "role": "Sales & Marketing Intern",
-            "cname": "Youth Unlock Educare",
-            "date": "Aug 2024 - Sep 2024",
-            "description":"falana"
-        }
-    ],
+  {
+    "role": "M3 Coding Mentor",
+    "cname": "Let's Unbound",
+    "date": "Aug 2024 - Present",
+    "description": "Mentor students in programming and computer science fundamentals, tailor lesson plans to suit individual learner needs, track progress using performance analytics, encourage logical problem-solving through hands-on exercises",
+    "skills": ["Mentoring", "Python", "JavaScript", "Curriculum Development", "Student Analytics"]
+  },
+  {
+    "role": "Editorial Head",
+    "cname": "Alumni Association - GLAU",
+    "date": "Aug 2023 - Present",
+    "description": "Lead the editorial team to produce alumni-centered content, manage newsletters and event coverage, mentor junior writers, ensure editorial quality and timely delivery of publications, coordinate with alumni for interviews and testimonials",
+    "skills": ["Content Writing", "Leadership", "Editing", "Communication", "Team Management"]
+  },
+  {
+    "role": "Full-stack Developer",
+    "cname": "Promptly AI",
+    "date": "May 2025 - Aug 2025",
+    "description": "Develop responsive UI components for AI-integrated tools, build and consume REST APIs, collaborate with product teams to refine UX, ensure scalability and code optimization for fast performance, maintain Git version control workflows",
+    "skills": ["React.js", "Node.js", "API Integration", "JavaScript", "Git"]
+  },
+  {
+    "role": "Full-stack Developer (EWYL)",
+    "cname": "GLA University",
+    "date": "Oct 2024 - Jan 2025",
+    "description": "Built Virtual Braj Museum web app with immersive VR features, implemented interactive maps and 360° experiences using Three.js, applied lazy loading for performance optimization, followed Agile and SDLC methodologies, collaborated with historians to maintain cultural accuracy",
+    "skills": ["React.js", "Three.js", "MongoDB", "Express.js", "Agile", "SDLC"]
+  },
+  {
+    "role": "Sales & Marketing Intern",
+    "cname": "Youth Unlock Educare",
+    "date": "Aug 2024 - Sep 2024",
+    "description": "Conducted market research for lead generation, assisted in CRM automation and campaign design, analyzed funnel performance to boost conversions, supported the senior team in strategy meetings, contributed to social media and outreach content",
+    "skills": ["CRM", "Market Research", "Digital Marketing", "Lead Generation", "Communication"]
+  }
+],
     
     "projects": [
-        {
-            "name": "Stuti",
-            "docsLink": "",
-            "projectLink": "",
-            "imageSrc": "",
-            "description": "An agile functional assistive AI agent with capabilities of execution and schedule for Gantavya"
-        },
-        {
-            "name": "Trade It Up",
-            "docsLink": "",
-            "projectLink": "",
-            "imageSrc": "",
-            "description": "A real-time exchange platform made up keeping in mind for the Top 1% to trade on antique items"
-        },
-        {
-            "name": "Virutal Braj Museum",
-            "docsLink": "",
-            "projectLink": "",
-            "imageSrc": "",
-            "description": "A VR Technology based platform making Braj Culture accessible globally"
-        },
-        {
-            "name": "Braj Estate",
-            "docsLink": "",
-            "projectLink": "https://brajplots.vercel.app",
-            "imageSrc": "",
-            "description": "An interface to BUY, SELL & RENT properties of Braj region"
-        },
-        {
-            "name": "Style Sync",
-            "docsLink": "",
-            "projectLink": "",
-            "imageSrc": "",
-            "description": "Personality & bodytype based personal styler and advisor"
-        },
-        {
-            "name": "Python Mastery",
-            "docsLink": "oct 2024- present",
-            "projectLink": "Coding Mentor",
-            "imageSrc": "",
-            "description": "120 day roadmap with resources to learn python from scratch to building up an chatbot through 50+ project based learning"
-        },
-        {
-            "name": "OOPs its DSA",
-            "docsLink": "oct 2024- present",
-            "projectLink": "Coding Mentor",
-            "imageSrc": "",
-            "description": "My personal DSA & Interview prep resources with a dedicated tracksheet with solution of over 200 Leetcode Problems in C, C++, C#, Java, JavaScript, Python, TypeScript"
-        },
-        {
-            "name": "D Web Tech",
-            "docsLink": "oct 2024- present",
-            "projectLink": "Coding Mentor",
-            "imageSrc": "",
-            "description": "365 day journey to start with WebD(HTML, CSS, JS) to full-stack(Frontend, Backend, Database, DevOps, Cloud, AI)"
-        },
-        {
-            "name": "My Family",
-            "docsLink": "oct 2024- present",
-            "projectLink": "Coding Mentor",
-            "imageSrc": "",
-            "description": "ddefeijwjf iejf iowojiwo hoiwhg ihgo ighowighighwogihoirghgihighoigh e giwghi wghi ged"
-        }
-    ],
+  {
+    "name": "Stuti",
+    "docsLink": "",
+    "projectLink": "",
+    "imageSrc": "",
+    "description": "An agile, voice-activated assistive AI agent built for Gantavya's operational workflows, handles task execution, calendar scheduling, and contextual command processing, enhances accessibility and productivity through multimodal AI interactions",
+    "skills": ["AI Agent", "NLP", "Voice Commands", "Scheduling API", "JavaScript"]
+  },
+  {
+    "name": "Trade It Up",
+    "docsLink": "",
+    "projectLink": "",
+    "imageSrc": "",
+    "description": "A high-end, real-time trading platform designed for elite collectors, enables secure buy/sell of rare antiques with a verified ownership model, features live bidding, escrow smart contracts, and dynamic price tracking",
+    "skills": ["WebSockets", "Smart Contracts", "React.js", "Blockchain", "MongoDB"]
+  },
+  {
+    "name": "Virtual Braj Museum",
+    "docsLink": "",
+    "projectLink": "",
+    "imageSrc": "",
+    "description": "A 360° VR-powered museum that globally showcases Braj’s rich cultural heritage, includes interactive maps, panoramic exhibits, and historical timelines, accessible across devices with lazy loading for performance",
+    "skills": ["React.js", "Three.js", "MongoDB", "VR", "Responsive Design"]
+  },
+  {
+    "name": "Braj Estate",
+    "docsLink": "",
+    "projectLink": "https://brajplots.vercel.app",
+    "imageSrc": "",
+    "description": "An intuitive real-estate platform for the Braj region to BUY, SELL & RENT properties, integrates property listing management, location filters, and inquiry tracking with a clean UI",
+    "skills": ["Next.js", "MongoDB", "Tailwind CSS", "Real Estate Logic", "UI/UX"]
+  },
+  {
+    "name": "Style Sync",
+    "docsLink": "",
+    "projectLink": "",
+    "imageSrc": "",
+    "description": "A smart style advisor that recommends outfits based on body type and personality, combines fashion data analysis with preference learning to build personalized styling experiences",
+    "skills": ["AI/ML", "Recommendation Systems", "React.js", "CSS", "Fashion Tech"]
+  },
+  {
+    "name": "Python Mastery",
+    "docsLink": "Oct 2024 - Present",
+    "projectLink": "Coding Mentor",
+    "imageSrc": "",
+    "description": "A 120-day structured roadmap to learn Python from scratch to advanced topics, includes curated resources, 50+ projects, and chatbot development tutorials for practical application",
+    "skills": ["Python", "Roadmap Design", "Chatbot", "Flask", "Project-Based Learning"]
+  },
+  {
+    "name": "OOPs its DSA",
+    "docsLink": "Oct 2024 - Present",
+    "projectLink": "Coding Mentor",
+    "imageSrc": "",
+    "description": "My comprehensive DSA and interview preparation initiative featuring a structured tracksheet, handpicked questions, and 200+ Leetcode problems solved in C, C++, Java, Python, TypeScript, and C#",
+    "skills": ["DSA", "Leetcode", "OOP", "Interview Prep", "Problem Solving"]
+  },
+  {
+    "name": "D Web Tech",
+    "docsLink": "Oct 2024 - Present",
+    "projectLink": "Coding Mentor",
+    "imageSrc": "",
+    "description": "A 365-day learning journey covering everything from basics of HTML, CSS, JS to full-stack technologies including Frontend Frameworks, Backend APIs, Databases, DevOps, Cloud, and AI integration",
+    "skills": ["HTML", "CSS", "JavaScript", "MERN Stack", "DevOps", "Cloud", "AI"]
+  },
+  {
+    "name": "My Family",
+    "docsLink": "Oct 2024 - Present",
+    "projectLink": "Coding Mentor",
+    "imageSrc": "",
+    "description": "A deeply personal digital storytelling project using creative code and visuals to represent emotional connections, combines animations, family tree logic, and poetic data visualizations",
+    "skills": ["Creative Coding", "Canvas API", "GSAP", "JSON Data", "JavaScript"]
+  }
+],
 
-    "tools": [
-        {
-            "name": "Tool 1",
-            "docsLink": "description for Tool 1"
-        },
-        {
-            "name": "Tool 2",
-            "docsLink": "description for Tool 2"
-        }
-    ]
+  "tools": [
+    {
+      "name": "StealthVid - Steganography-based video message encoder",
+      "docsLink": "Converts secret messages into video files that can only be decoded with a key. Involves steganography, video processing, and cryptography. Skills: Python, OpenCV, encryption."
+    },
+    {
+      "name": "Dog/Cat Image Classifier - ML-based pet classifier",
+      "docsLink": "Classifies images of dogs and cats using a CNN or similar deep learning model. Skills: Python, TensorFlow/PyTorch, image processing, classification."
+    },
+    {
+      "name": "Cab Fare Estimator - Uber data trend analysis",
+      "docsLink": "Performs exploratory data analysis and fare trend forecasting using real-world cab data. Skills: Python, pandas, matplotlib, regression."
+    },
+    {
+      "name": "Ollama Chat Interface - Local LLM integration",
+      "docsLink": "Custom chat interface leveraging local LLMs (Ollama or similar). Skills: API integration, socket programming, NLP, UX design."
+    },
+    {
+      "name": "Fokker–Planck Solver - Differential Equation simulator",
+      "docsLink": "Solves Fokker–Planck or similar PDEs numerically for scientific computing use. Skills: Numerical methods, matplotlib, scipy."
+    },
+    {
+      "name": "Library Management System - CLI-based library database",
+      "docsLink": "Manages book entries, borrow/return status via terminal interface. Skills: Python, file I/O, data structures, OOP."
+    },
+    {
+      "name": "Chat App - Real-time socket-based messenger",
+      "docsLink": "Implements client-server architecture using sockets for real-time messaging. Skills: Python sockets, threading, network protocols."
+    },
+    {
+      "name": "Inventory Manager - Stock tracking system",
+      "docsLink": "Tracks, adds, and removes inventory items via command-line interface. Skills: Python, CRUD logic, file handling."
+    },
+    {
+      "name": "News Reader - CLI-based news fetcher",
+      "docsLink": "Fetches and displays news from external APIs in the terminal. Skills: API calls, JSON parsing, Python requests."
+    },
+    {
+      "name": "Mailer - SMTP-based automated email sender",
+      "docsLink": "Sends formatted emails using SMTP with authentication. Skills: smtplib, MIME, Python automation."
+    },
+    {
+      "name": "URL Shortener - Link compression utility",
+      "docsLink": "Shortens long URLs using public URL shortening APIs. Skills: REST API, JSON, Python requests."
+    },
+    {
+      "name": "Alarm Clock - Audio-based time alert",
+      "docsLink": "Triggers an MP3 alarm at the specified time using datetime logic. Skills: Python time modules, audio libraries."
+    },
+    {
+      "name": "File Path Catching Game - Navigation game",
+      "docsLink": "Mini-game or challenge focused on navigating or replicating file paths. Skills: Python logic, file system navigation."
+    },
+    {
+      "name": "Word Game - CLI word guessing logic",
+      "docsLink": "Word guessing game with logical or vocabulary challenges. Skills: Loops, conditions, input handling."
+    },
+    {
+      "name": "KBC - Terminal-based quiz simulation",
+      "docsLink": "Kaun Banega Crorepati-style game using MCQs in Python CLI. Skills: Loops, conditions, game logic."
+    },
+    {
+      "name": "Scientific Calculator - Trigonometric calculator",
+      "docsLink": "Supports arithmetic and scientific operations like sine, cosine, log. Skills: Python math, CLI handling."
+    },
+    {
+      "name": "Rock Paper Scissors - Classic CLI game",
+      "docsLink": "Multiple versions of RPS logic using conditions and randomization. Skills: Random module, game logic."
+    },
+    {
+      "name": "To-Do List App - Task tracking utility",
+      "docsLink": "Manages a task list with options to add, complete, or delete tasks. Skills: Lists, CRUD logic, CLI."
+    },
+    {
+      "name": "Word Counter - Text statistics tool",
+      "docsLink": "Counts words, characters, and possibly lines in a text input. Skills: String manipulation, file I/O."
+    },
+    {
+      "name": "Password Generator - Strong password utility",
+      "docsLink": "Generates strong random passwords using character sets. Skills: random, string module, security basics."
+    },
+    {
+      "name": "Notification Tool - Desktop message pusher",
+      "docsLink": "Pushes desktop notifications using Python scripts. Skills: Plyer, OS integration."
+    },
+    {
+      "name": "Pattern Generator - CLI pattern printer",
+      "docsLink": "Prints various ASCII art patterns using loops and conditions. Skills: Loops, formatting."
+    },
+    {
+      "name": "Palindrome Checker - String logic test",
+      "docsLink": "Checks if a given string is a palindrome using simple logic. Skills: Strings, slicing, conditions."
+    },
+    {
+      "name": "FizzBuzz - Condition-based number logic",
+      "docsLink": "Classic programming task for numbers divisible by 3 or 5. Skills: Loops, modulus operator."
+    },
+    {
+      "name": "Prime Checker - Number theory tool",
+      "docsLink": "Checks if a given number is prime using iteration. Skills: Math, loops, conditions."
+    },
+    {
+      "name": "Tuple and Set Tools - Collection practice",
+      "docsLink": "Manipulates and demonstrates set/tuple behaviors. Skills: Python collections, set operations."
+    },
+    {
+      "name": "Countdown Timer - CLI countdown utility",
+      "docsLink": "Counts down seconds with time delays and prints remaining time. Skills: Time module, loops."
+    },
+    {
+      "name": "Collatz Simulator - Number sequence generator",
+      "docsLink": "Simulates the Collatz conjecture step-by-step. Skills: Loops, mathematical logic."
+    },
+    {
+      "name": "Dictionary Manager - Contact organizer",
+      "docsLink": "Manages key-value pairs in a contact-like structure. Skills: Dicts, user input, file I/O."
+    },
+    {
+      "name": "List Modifiers - Array update practice",
+      "docsLink": "Practice tools for inserting, deleting, and modifying list elements. Skills: Lists, indexing."
+    },
+    {
+      "name": "Style Tool - CLI output formatter",
+      "docsLink": "Applies visual formatting or style to CLI output (may include color/spacing). Skills: Print formatting."
+    },
+    {
+      "name": "H Pattern - Prints 'H' in ASCII format",
+      "docsLink": "Prints an H-shaped pattern using nested loops. Skills: Loops, range, print formatting."
+    },
+    {
+      "name": "Basic Calculator - CLI arithmetic utility",
+      "docsLink": "Performs +, -, *, / operations using input numbers. Skills: Input handling, arithmetic."
+    },
+    {
+      "name": "misSoln.py - Miscellaneous solution script",
+      "docsLink": "Uncategorized or experimental script possibly used for test logic. Skills: General Python."
+    }
+  ]
 }

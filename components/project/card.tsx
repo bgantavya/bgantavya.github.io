@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export default function Card({name, description, imageSrc, docsLink, projectLink}: {name?: string, description?: string, imageSrc?: string, docsLink?: string, projectLink?: string}) {
   return (
-    <div className="rounded-2xl bg-stone-900/75 p-6 max-w-sm border-4 border-fuchsia-700 shadow-lg transition hover:scale-[1.02] hover:border-fuchsia-500">
+    <div className="rounded-2xl bg-stone-900/75 p-6 max-w-lg border-4 border-fuchsia-700 shadow-lg transition hover:scale-[1.02] hover:border-fuchsia-500">
       {imageSrc && <Image
         src={imageSrc}
         alt={`${name} image`}

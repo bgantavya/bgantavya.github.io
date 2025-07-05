@@ -7,7 +7,7 @@ export default function Card({ role, cname, date, description }: {role?: string,
     : description?.split(",") || [];
 
   return (
-    <div className="rounded-2xl w-1/2 bg-stone-900/75 p-6 max-w-sm border-4 border-fuchsia-700 shadow-lg hover:shadow-fuchsia-700 transition">
+    <div className="rounded-2xl bg-stone-900/75 p-6 max-w-md border-4 border-fuchsia-700 shadow-lg hover:shadow-fuchsia-700 transition">
       <h2 className="text-xl font-bold text-white mb-1">{role || "Role Title"}</h2>
       <h3 className="text-md text-fuchsia-300 mb-2">{cname || "Company Name"}</h3>
       <p className="text-sm text-stone-400 mb-4">{date || "Date not provided"}</p>
