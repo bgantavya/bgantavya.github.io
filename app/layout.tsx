@@ -55,9 +55,9 @@ export const metadata: Metadata = {
     siteName: 'Gantavya Bansal Portfolio',
     images: [
       {
-        url: '/img.png',
-        width: 1200,
-        height: 630,
+        url: '/og.png',
+        width: 1584,
+        height: 830,
         alt: 'Gantavya Bansal Tech Portfolio',
       },
     ],
