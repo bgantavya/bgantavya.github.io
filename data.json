@@ -1,153 +1,131 @@
 {
-    "experiences": [
+"experiences": [
   {
     "role": "M3 Coding Mentor",
     "cname": "Let's Unbound",
     "date": "Aug 2024 - Present",
-    "description": "Mentor students in programming and computer science fundamentals, tailor lesson plans to suit individual learner needs, track progress using performance analytics, encourage logical problem-solving through hands-on exercises",
-    "skills": ["Mentoring", "Python", "JavaScript", "Curriculum Development", "Student Analytics"]
+    "description": "Mentoring over 50+ students (age 9–16) in core computer science fundamentals including Python and JavaScript. Design personalized lesson plans to accommodate diverse learning styles. Conduct interactive coding sessions, debug live with students, and build mini-projects to reinforce logic building. Leverage performance analytics to track student progress and offer targeted improvement plans. Actively contribute to curriculum design and parent-mentor feedback loops to ensure academic growth and satisfaction",
+    "skills": ["Mentoring","Java","Python", "JavaScript", "Curriculum Development", "Student Analytics", "Classroom Engagement", "Progress Reporting"]
   },
   {
     "role": "Editorial Head",
     "cname": "Alumni Association - GLAU",
     "date": "Aug 2023 - Present",
-    "description": "Lead the editorial team to produce alumni-centered content, manage newsletters and event coverage, mentor junior writers, ensure editorial quality and timely delivery of publications, coordinate with alumni for interviews and testimonials",
-    "skills": ["Content Writing", "Leadership", "Editing", "Communication", "Team Management"]
-  },
-  {
-    "role": "Full-stack Developer",
-    "cname": "Promptly AI",
-    "date": "May 2025 - Aug 2025",
-    "description": "Develop responsive UI components for AI-integrated tools, build and consume REST APIs, collaborate with product teams to refine UX, ensure scalability and code optimization for fast performance, maintain Git version control workflows",
-    "skills": ["React.js", "Node.js", "API Integration", "JavaScript", "Git"]
+    "description": "Spearhead a team of 10+ student writers and editors to produce alumni-centric content including newsletters, event coverage, and feature interviews. Revamped the editorial workflow to cut content production time by 30%. Regularly collaborate with alumni for testimonials and success stories, strengthening alumni-university ties. Mentored junior writers in storytelling and journalistic ethics. Initiated a monthly alumni spotlight series which improved engagement metrics by 45%",
+    "skills": ["Content Writing", "Leadership", "Editing", "Team Management", "Interviewing", "Strategic Communication", "Brand Engagement"]
   },
   {
     "role": "Full-stack Developer (EWYL)",
     "cname": "GLA University",
     "date": "Oct 2024 - Jan 2025",
-    "description": "Built Virtual Braj Museum web app with immersive VR features, implemented interactive maps and 360° experiences using Three.js, applied lazy loading for performance optimization, followed Agile and SDLC methodologies, collaborated with historians to maintain cultural accuracy",
-    "skills": ["React.js", "Three.js", "MongoDB", "Express.js", "Agile", "SDLC"]
+    "description": "Conceptualized and developed the Virtual Braj Museum—a culturally immersive web app that brings the heritage of the Braj region to life using VR. Engineered 3D interactive maps and 360° panoramic experiences with Threejs. Optimized app performance using lazy loading and modular architecture. Coordinated with historians to preserve cultural fidelity in all digital representations. Followed Agile methodologies with weekly sprints and SDLC documentation",
+    "skills": ["React.js", "Three.js", "MongoDB", "Express.js", "Agile", "SDLC", "VR Integration", "Performance Optimization"]
   },
   {
     "role": "Sales & Marketing Intern",
     "cname": "Youth Unlock Educare",
-    "date": "Aug 2024 - Sep 2024",
-    "description": "Conducted market research for lead generation, assisted in CRM automation and campaign design, analyzed funnel performance to boost conversions, supported the senior team in strategy meetings, contributed to social media and outreach content",
-    "skills": ["CRM", "Market Research", "Digital Marketing", "Lead Generation", "Communication"]
+    "date": "May 2024 - Sep 2024",
+    "description": "Assisted in executing digital campaigns that reached 10,000+ potential leads. Conducted in-depth market research to identify high-conversion segments. Contributed to CRM automation workflows using tools like HubSpot, improving lead nurturing efficiency. Designed social media content that boosted engagement by 25% within a month. Participated in cross-functional meetings to align sales strategy with marketing initiatives, providing data-driven insights for better decision-making",
+    "skills": ["CRM", "Market Research", "Digital Marketing", "Lead Generation", "Content Strategy", "Campaign Analytics", "Team Collaboration"]
   }
 ],
-    
+
+"mixed": {
+  "role": "Full-stack Developer",
+  "cname": "Promptly AI",
+  "date": "May 2025 - Aug 2025",
+  "description": "Led front-end and back-end development for AI-enhanced productivity tools in a fast-paced startup environment. Developed reusable UI components using Next.js and managed state efficiently with Redux. Created and consumed RESTful APIs using Node.js and Nestjs, improving response latency by 20%. Partnered with UX teams to streamline user flows and wireframes for tools used by 1,000+ beta users. Enforced best practices in version control (Git/GitHub) and code review. Deployed features on cloud infrastructure with CI/CD integration.",
+  "skills": ["React.js", "Node.js", "REST API", "UX Collaboration", "JavaScript", "Git", "CI/CD", "Agile Development"]
+},
+
     "projects": [
   {
     "name": "Stuti",
     "docsLink": "",
     "projectLink": "",
     "imageSrc": "",
-    "description": "An agile, voice-activated assistive AI agent built for Gantavya's operational workflows, handles task execution, calendar scheduling, and contextual command processing, enhances accessibility and productivity through multimodal AI interactions",
-    "skills": ["AI Agent", "NLP", "Voice Commands", "Scheduling API", "JavaScript"]
+    "description": "Stuti is an agile, voice-controlled assistive AI agent tailored for Gantavya’s daily operational workflows. It streamlines productivity by executing contextual voice commands, managing calendar events, automating repetitive tasks, and enabling multimodal interaction via speech and text. Built using modern NLP techniques, it enhances accessibility and allows seamless control over digital tools in real-time environments.",
+    "skills": ["Ongoing", "AI Agent", "NLP", "Voice Commands", "JavaScript", "Scheduling API", "Contextual AI"]
   },
   {
     "name": "Trade It Up",
     "docsLink": "",
     "projectLink": "",
     "imageSrc": "",
-    "description": "A high-end, real-time trading platform designed for elite collectors, enables secure buy/sell of rare antiques with a verified ownership model, features live bidding, escrow smart contracts, and dynamic price tracking",
-    "skills": ["WebSockets", "Smart Contracts", "React.js", "Blockchain", "MongoDB"]
+    "description": "Trade It Up is a real-time web trading platform built for high-end antique and collectible markets. It features live bidding through WebSockets, ownership verification via blockchain smart contracts, and dynamic price tracking for rare assets. The platform integrates an escrow mechanism for secure transactions and offers a seamless UX for elite collectors to trade in a trusted environment.",
+    "skills": ["Ongoing", "WebSockets", "Smart Contracts", "React.js", "Blockchain", "MongoDB", "Escrow Logic"]
   },
-  {
+   {
     "name": "Virtual Braj Museum",
-    "docsLink": "",
-    "projectLink": "",
-    "imageSrc": "",
-    "description": "A 360° VR-powered museum that globally showcases Braj’s rich cultural heritage, includes interactive maps, panoramic exhibits, and historical timelines, accessible across devices with lazy loading for performance",
-    "skills": ["React.js", "Three.js", "MongoDB", "VR", "Responsive Design"]
+    "docsLink": "https://github.com/bgantavya/Braj-Museum",
+    "projectLink": "https://merobraj.org/braj",
+    "imageSrc": "/merobraj.png",
+    "description": "Virtual Braj Museum is a 360° VR-powered digital museum that immerses users in the cultural, historical, and spiritual richness of the Braj region. It features interactive maps, panoramic galleries, and a timeline of heritage events. Optimized with lazy loading for smooth performance, the platform is accessible across desktop, mobile, and VR devices—bridging the gap between technology and tradition.",
+    "skills": ["React.js", "Three.js", "MongoDB", "VR", "Responsive Design", "Performance Optimization"]
   },
   {
     "name": "Braj Estate",
-    "docsLink": "",
+    "docsLink": "https://github.com/bgantavya/Braj-Plots",
     "projectLink": "https://brajplots.vercel.app",
-    "imageSrc": "",
-    "description": "An intuitive real-estate platform for the Braj region to BUY, SELL & RENT properties, integrates property listing management, location filters, and inquiry tracking with a clean UI",
-    "skills": ["Next.js", "MongoDB", "Tailwind CSS", "Real Estate Logic", "UI/UX"]
+    "imageSrc": "/plots.png",
+    "description": "Braj Estate is a modern real-estate web application tailored for the Braj region, allowing users to BUY, SELL, and RENT properties with ease. It supports dynamic listing management, real-time inquiry tracking, map-based filters, and a minimal UI designed for accessibility and fast navigation. Built with a mobile-first approach and clean architectural design.",
+    "skills": ["Next.js", "MongoDB", "Tailwind CSS", "Real Estate Logic", "UI/UX Design", "Responsive Architecture"]
   },
   {
     "name": "Style Sync",
-    "docsLink": "",
-    "projectLink": "",
+    "docsLink": "https://github.com/bgantavya/StyleSync",
+    "projectLink": "https://bgantavya.github.io/StyleSync/",
     "imageSrc": "",
     "description": "A smart style advisor that recommends outfits based on body type and personality, combines fashion data analysis with preference learning to build personalized styling experiences",
     "skills": ["AI/ML", "Recommendation Systems", "React.js", "CSS", "Fashion Tech"]
-  },
-  {
+  },{
     "name": "Python Mastery",
-    "docsLink": "Oct 2024 - Present",
-    "projectLink": "Coding Mentor",
-    "imageSrc": "",
-    "description": "A 120-day structured roadmap to learn Python from scratch to advanced topics, includes curated resources, 50+ projects, and chatbot development tutorials for practical application",
-    "skills": ["Python", "Roadmap Design", "Chatbot", "Flask", "Project-Based Learning"]
+    "docsLink": "https://github.com/bgantavya/Python-Mastery",
+    "description": "A comprehensive 120-day roadmap to master Python from beginner to advanced levels. This course features hand-curated learning paths, over 50 real-world projects, and chatbot development tutorials using Flask. Designed to accelerate Python learning through hands-on practice and conceptual clarity, it serves as a complete self-paced guide for aspiring developers and automation enthusiasts.",
+    "skills": ["Course", "Python", "Roadmap Design", "Chatbot", "Flask", "Project-Based Learning", "Automation"]
   },
   {
     "name": "OOPs its DSA",
-    "docsLink": "Oct 2024 - Present",
-    "projectLink": "Coding Mentor",
-    "imageSrc": "",
-    "description": "My comprehensive DSA and interview preparation initiative featuring a structured tracksheet, handpicked questions, and 200+ Leetcode problems solved in C, C++, Java, Python, TypeScript, and C#",
-    "skills": ["DSA", "Leetcode", "OOP", "Interview Prep", "Problem Solving"]
+    "docsLink": "https://github.com/bgantavya/oopsItsDsa",
+    "description": "A structured Data Structures & Algorithms (DSA) and interview prep series that includes a topic-wise tracksheet, curated questions, and 200+ LeetCode problems. Solutions are implemented in C, C++, Java, Python, TypeScript, and C#, offering multi-language versatility. Ideal for students preparing for tech interviews, coding rounds, or mastering problem-solving techniques.",
+    "skills": ["Course", "DSA", "Leetcode", "OOP", "Interview Prep", "Multilingual Coding", "Problem Solving"]
   },
   {
     "name": "D Web Tech",
-    "docsLink": "Oct 2024 - Present",
-    "projectLink": "Coding Mentor",
-    "imageSrc": "",
-    "description": "A 365-day learning journey covering everything from basics of HTML, CSS, JS to full-stack technologies including Frontend Frameworks, Backend APIs, Databases, DevOps, Cloud, and AI integration",
-    "skills": ["HTML", "CSS", "JavaScript", "MERN Stack", "DevOps", "Cloud", "AI"]
-  },
-  {
-    "name": "My Family",
-    "docsLink": "Oct 2024 - Present",
-    "projectLink": "Coding Mentor",
-    "imageSrc": "",
-    "description": "A deeply personal digital storytelling project using creative code and visuals to represent emotional connections, combines animations, family tree logic, and poetic data visualizations",
-    "skills": ["Creative Coding", "Canvas API", "GSAP", "JSON Data", "JavaScript"]
+    "docsLink": "https://github.com/bgantavya/dWebTech",
+    "description": "D Web Tech is an all-in-one, 365-day self-learning program covering web development from fundamentals to advanced full-stack and deployment. The curriculum spans HTML, CSS, JavaScript, MERN stack, REST APIs, database management, DevOps pipelines, cloud deployment, and AI integration—empowering learners to build scalable, production-grade web applications.",
+    "skills": ["Course", "HTML", "CSS", "JavaScript", "MERN Stack", "DevOps", "Cloud", "AI Integration", "Full-Stack"]
   }
 ],
 
   "tools": [
     {
       "name": "StealthVid - Steganography-based video message encoder",
-      "docsLink": "Converts secret messages into video files that can only be decoded with a key. Involves steganography, video processing, and cryptography. Skills: Python, OpenCV, encryption."
-    },
+      "docsLink": "https://github.com/bgantavya/Python-Mastery/blob/main/Beta%20Projects/StealthVid.py"
+},
     {
       "name": "Dog/Cat Image Classifier - ML-based pet classifier",
-      "docsLink": "Classifies images of dogs and cats using a CNN or similar deep learning model. Skills: Python, TensorFlow/PyTorch, image processing, classification."
+      "docsLink": "https://github.com/bgantavya/Python-Mastery/tree/main/Gamma%20Projects/Imageanalysis"
     },
     {
       "name": "Cab Fare Estimator - Uber data trend analysis",
-      "docsLink": "Performs exploratory data analysis and fare trend forecasting using real-world cab data. Skills: Python, pandas, matplotlib, regression."
+      "docsLink": "https://github.com/bgantavya/Python-Mastery/tree/main/Gamma%20Projects/SalesAnalysis%20AI"
     },
     {
       "name": "Ollama Chat Interface - Local LLM integration",
       "docsLink": "Custom chat interface leveraging local LLMs (Ollama or similar). Skills: API integration, socket programming, NLP, UX design."
     },
     {
-      "name": "Fokker–Planck Solver - Differential Equation simulator",
-      "docsLink": "Solves Fokker–Planck or similar PDEs numerically for scientific computing use. Skills: Numerical methods, matplotlib, scipy."
-    },
-    {
-      "name": "Library Management System - CLI-based library database",
-      "docsLink": "Manages book entries, borrow/return status via terminal interface. Skills: Python, file I/O, data structures, OOP."
-    },
-    {
       "name": "Chat App - Real-time socket-based messenger",
-      "docsLink": "Implements client-server architecture using sockets for real-time messaging. Skills: Python sockets, threading, network protocols."
-    },
-    {
-      "name": "Inventory Manager - Stock tracking system",
-      "docsLink": "Tracks, adds, and removes inventory items via command-line interface. Skills: Python, CRUD logic, file handling."
+      "docsLink": "https://github.com/bgantavya/Python-Mastery/tree/main/Beta%20Projects/chat-app"
     },
     {
       "name": "News Reader - CLI-based news fetcher",
-      "docsLink": "Fetches and displays news from external APIs in the terminal. Skills: API calls, JSON parsing, Python requests."
+      "docsLink": "https://github.com/bgantavya/Python-Mastery/tree/main/Beta%20Projects/chat-app"
+    },
+    {
+      "name": "Fokker–Planck Solver - Differential Equation simulator",
+      "docsLink": "https://github.com/bgantavya/Python-Mastery/blob/main/Beta%20Projects/diffEqFokkerPlank.py"
     },
     {
       "name": "Mailer - SMTP-based automated email sender",
@@ -155,11 +133,31 @@
     },
     {
       "name": "URL Shortener - Link compression utility",
-      "docsLink": "Shortens long URLs using public URL shortening APIs. Skills: REST API, JSON, Python requests."
+      "docsLink": "https://github.com/bgantavya/Python-Mastery/blob/main/Beta%20Projects/URLShortner.py"
     },
     {
       "name": "Alarm Clock - Audio-based time alert",
-      "docsLink": "Triggers an MP3 alarm at the specified time using datetime logic. Skills: Python time modules, audio libraries."
+      "docsLink": "https://github.com/bgantavya/Python-Mastery/blob/main/Beta%20Projects/alarm.py"
+    },
+    {
+      "name": "Notification Tool - Desktop message pusher",
+      "docsLink": "https://github.com/bgantavya/Python-Mastery/blob/main/Beta%20Projects/notify.py"
+    },
+    {
+      "name": "KBC - Terminal-based quiz simulation",
+      "docsLink": "https://github.com/bgantavya/Python-Mastery/tree/main/Alpha%20Projects/KaunBanegaCrorepati"
+    },
+    {
+      "name": "Password Generator - Strong password utility",
+      "docsLink": "https://github.com/bgantavya/Python-Mastery/blob/main/Beta%20Projects/passwdgen.py"
+    },
+    {
+      "name": "Library Management System - CLI-based library database",
+      "docsLink": "https://github.com/bgantavya/Python-Mastery/tree/main/python/projects"
+    },
+    {
+      "name": "Inventory Manager - Stock tracking system",
+      "docsLink": "https://github.com/bgantavya/Python-Mastery/tree/main/Alpha%20Projects/InventoryManagementSystem.py"
     },
     {
       "name": "File Path Catching Game - Navigation game",
@@ -167,11 +165,7 @@
     },
     {
       "name": "Word Game - CLI word guessing logic",
-      "docsLink": "Word guessing game with logical or vocabulary challenges. Skills: Loops, conditions, input handling."
-    },
-    {
-      "name": "KBC - Terminal-based quiz simulation",
-      "docsLink": "Kaun Banega Crorepati-style game using MCQs in Python CLI. Skills: Loops, conditions, game logic."
+      "docsLink": "https://github.com/bgantavya/Python-Mastery/blob/main/Beta%20Projects/WordGame.py"
     },
     {
       "name": "Scientific Calculator - Trigonometric calculator",
@@ -179,47 +173,23 @@
     },
     {
       "name": "Rock Paper Scissors - Classic CLI game",
-      "docsLink": "Multiple versions of RPS logic using conditions and randomization. Skills: Random module, game logic."
+      "docsLink": "https://github.com/bgantavya/Python-Mastery/tree/main/Alpha%20Projects/RockPaperScissors"
     },
     {
       "name": "To-Do List App - Task tracking utility",
-      "docsLink": "Manages a task list with options to add, complete, or delete tasks. Skills: Lists, CRUD logic, CLI."
+      "docsLink": "https://github.com/bgantavya/Python-Mastery/blob/main/Beta%20Projects/ToDoList.py"
     },
     {
       "name": "Word Counter - Text statistics tool",
       "docsLink": "Counts words, characters, and possibly lines in a text input. Skills: String manipulation, file I/O."
     },
     {
-      "name": "Password Generator - Strong password utility",
-      "docsLink": "Generates strong random passwords using character sets. Skills: random, string module, security basics."
-    },
-    {
-      "name": "Notification Tool - Desktop message pusher",
-      "docsLink": "Pushes desktop notifications using Python scripts. Skills: Plyer, OS integration."
-    },
-    {
       "name": "Pattern Generator - CLI pattern printer",
-      "docsLink": "Prints various ASCII art patterns using loops and conditions. Skills: Loops, formatting."
-    },
-    {
-      "name": "Palindrome Checker - String logic test",
-      "docsLink": "Checks if a given string is a palindrome using simple logic. Skills: Strings, slicing, conditions."
-    },
-    {
-      "name": "FizzBuzz - Condition-based number logic",
-      "docsLink": "Classic programming task for numbers divisible by 3 or 5. Skills: Loops, modulus operator."
-    },
-    {
-      "name": "Prime Checker - Number theory tool",
-      "docsLink": "Checks if a given number is prime using iteration. Skills: Math, loops, conditions."
-    },
-    {
-      "name": "Tuple and Set Tools - Collection practice",
-      "docsLink": "Manipulates and demonstrates set/tuple behaviors. Skills: Python collections, set operations."
+      "docsLink": "https://github.com/bgantavya/Python-Mastery/blob/main/Alpha%20Projects/Hpattern.py"
     },
     {
       "name": "Countdown Timer - CLI countdown utility",
-      "docsLink": "Counts down seconds with time delays and prints remaining time. Skills: Time module, loops."
+      "docsLink": "https://github.com/bgantavya/Python-Mastery/blob/main/Alpha%20Content/Day07-ConditionalStatements/CountdownTimer.py"
     },
     {
       "name": "Collatz Simulator - Number sequence generator",
@@ -230,24 +200,12 @@
       "docsLink": "Manages key-value pairs in a contact-like structure. Skills: Dicts, user input, file I/O."
     },
     {
-      "name": "List Modifiers - Array update practice",
-      "docsLink": "Practice tools for inserting, deleting, and modifying list elements. Skills: Lists, indexing."
-    },
-    {
       "name": "Style Tool - CLI output formatter",
-      "docsLink": "Applies visual formatting or style to CLI output (may include color/spacing). Skills: Print formatting."
-    },
-    {
-      "name": "H Pattern - Prints 'H' in ASCII format",
-      "docsLink": "Prints an H-shaped pattern using nested loops. Skills: Loops, range, print formatting."
+      "docsLink": "https://github.com/bgantavya/Python-Mastery/blob/main/Beta%20Projects/style.py"
     },
     {
       "name": "Basic Calculator - CLI arithmetic utility",
-      "docsLink": "Performs +, -, *, / operations using input numbers. Skills: Input handling, arithmetic."
-    },
-    {
-      "name": "misSoln.py - Miscellaneous solution script",
-      "docsLink": "Uncategorized or experimental script possibly used for test logic. Skills: General Python."
+      "docsLink": "https://github.com/bgantavya/Python-Mastery/tree/main/Alpha%20Projects/BasicArithimaticCalculator"
     }
   ]
 }

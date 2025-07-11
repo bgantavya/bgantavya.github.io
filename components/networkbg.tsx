@@ -1,3 +1,4 @@
+'use client'
 import { useEffect, useRef } from 'react'
 
 export default function NetworkBackground() {
@@ -14,7 +15,7 @@ export default function NetworkBackground() {
     canvas!.height = window.innerHeight
 
     const particles: Particle[] = []
-    const particleCount = canvas!.width*0.15
+    const particleCount = canvas.width*.15 //< 800 ? 100 : 250 // Adjust particle count based on screen size
     const connectionDistance = 150
 
     let mouseX = -100
