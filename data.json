@@ -81,18 +81,24 @@
   },{
     "name": "Python Mastery",
     "docsLink": "https://github.com/bgantavya/Python-Mastery",
+    "projectLink": "",
+    "imageSrc": "",
     "description": "A comprehensive 120-day roadmap to master Python from beginner to advanced levels. This course features hand-curated learning paths, over 50 real-world projects, and chatbot development tutorials using Flask. Designed to accelerate Python learning through hands-on practice and conceptual clarity, it serves as a complete self-paced guide for aspiring developers and automation enthusiasts.",
     "skills": ["Course", "Python", "Roadmap Design", "Chatbot", "Flask", "Project-Based Learning", "Automation"]
   },
   {
     "name": "OOPs its DSA",
     "docsLink": "https://github.com/bgantavya/oopsItsDsa",
+    "projectLink": "",
+    "imageSrc": "",
     "description": "A structured Data Structures & Algorithms (DSA) and interview prep series that includes a topic-wise tracksheet, curated questions, and 200+ LeetCode problems. Solutions are implemented in C, C++, Java, Python, TypeScript, and C#, offering multi-language versatility. Ideal for students preparing for tech interviews, coding rounds, or mastering problem-solving techniques.",
     "skills": ["Course", "DSA", "Leetcode", "OOP", "Interview Prep", "Multilingual Coding", "Problem Solving"]
   },
   {
     "name": "D Web Tech",
     "docsLink": "https://github.com/bgantavya/dWebTech",
+    "projectLink": "",
+    "imageSrc": "",
     "description": "D Web Tech is an all-in-one, 365-day self-learning program covering web development from fundamentals to advanced full-stack and deployment. The curriculum spans HTML, CSS, JavaScript, MERN stack, REST APIs, database management, DevOps pipelines, cloud deployment, and AI integration—empowering learners to build scalable, production-grade web applications.",
     "skills": ["Course", "HTML", "CSS", "JavaScript", "MERN Stack", "DevOps", "Cloud", "AI Integration", "Full-Stack"]
   }
