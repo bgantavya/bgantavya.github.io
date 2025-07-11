@@ -127,7 +127,7 @@ const schemaData =
     "https://github.com/bgantavya",
     "https://linkedin.com/in/bgantavya",
     "https://leetcode.com/u/bgantavya",
-    "https://hackerrank.com/bgantavya",
+    "https://www.hackerrank.com/profile/gantavya_bansal1",
     "https://instagram.com/bgantavya"
   ],
   "email": "gantavyaoo@gmail.com",
