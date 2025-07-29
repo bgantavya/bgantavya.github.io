@@ -29,7 +29,7 @@ export function Header() {
         </div>
 
         <div id="nav" className="mr-2 flex flex-col items-center md:flex-row justify-evenly w-full md:w-1/2 text-lg">
-          <Link href="/">
+          <Link href="/home">
             <button className="p-1 rounded-md">Home</button>
           </Link>
           <Link href="/work">
@@ -38,7 +38,7 @@ export function Header() {
           <Link href="/projects">
             <button className="p-1 rounded-md">Projects</button>
           </Link>
-          <Link href="/gantavya_bansal_resume.pdf" target="_blank" rel="noopener noreferrer">
+          <Link href="/gantavya_bansal_resume.pdf" target="_blank" download rel="noopener noreferrer">
             <button className="p-1 rounded-md">Resume</button>
           </Link>
         </div>

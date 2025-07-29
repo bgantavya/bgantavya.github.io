@@ -1,12 +1,12 @@
-'use client';
 import { BookTextIcon, LucideExternalLink } from "lucide-react";
 import Image from "next/image";
 
-export default function Card({name, description, imageSrc, docsLink, projectLink, skills}: {name?: string, description?: string, imageSrc?: string, docsLink?: string, projectLink?: string, skills?: string[]}) {
+export default function Card({name, description, image_src, docs_link, project_link, skills}: {name?: string, description?: string, image_src?: string, docs_link?: string, project_link?: string, skills?: string[]}) {
+  console.log(project_link)
   return (
     <div className="rounded-2xl bg-stone-900/75 p-6 max-w-lg border-4 border-fuchsia-700 shadow-lg transition hover:scale-[1.02] hover:border-fuchsia-500">
-      {imageSrc && <Image
-        src={imageSrc}
+      {image_src && <Image
+        src={image_src}
         alt={`${name} image`}
         width={300}
         height={200}
@@ -23,12 +23,12 @@ export default function Card({name, description, imageSrc, docsLink, projectLink
       </p>
 
       <div className="flex justify-evenly items-center">
-        <a href={docsLink} target="_blank" rel="noopener noreferrer">
+        {docs_link &&(<a href={docs_link} target="_blank" rel="noopener noreferrer">
           <button className="text-white hover:underline text-lg p-1 px-3 rounded">
             <BookTextIcon className="inline"/> Read Docs
           </button>
-        </a>
-        {docsLink && (<a href={projectLink} target="_blank" rel="noopener noreferrer">
+        </a>)}
+        {project_link && (<a href={project_link} target="_blank" rel="noopener noreferrer">
           <button className="rounded-full p-1 px-3 text-lg bg-fuchsia-600 text-white hover:bg-fuchsia-500 transition">
             <LucideExternalLink className="inline" /> Project
           </button>

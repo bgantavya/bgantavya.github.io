@@ -1,9 +1,10 @@
-'use client'
 import Card from "./card"
-import data from '../../data.json'
 import NetworkBackground from "@/components/networkbg"
 import { Header,Footer } from "@/components/headFoot/page"
-export default function Work() {
+import { getExp } from "@/db/db"
+
+export default async function Work() {
+    const experiences = await getExp()
     return (
         <>
             <Header/>
@@ -11,7 +12,7 @@ export default function Work() {
             <NetworkBackground />
             <h1 className="mx-auto text-4xl font-bolder mt-20 mb-10 text-fuchsia-600 p-2 rounded font-bold  rounded bg-stone-900/50">{`>>> history`}</h1>
             <div className="flex gap-10 flex-wrap mx-auto justify-center">
-                {data.experiences.map((work)=>(<Card key={work.date} {...work} />))}
+                {experiences.map((work)=>(<Card key={work.date} {...work} />))}
             </div>
         </div>
         <Footer/>
