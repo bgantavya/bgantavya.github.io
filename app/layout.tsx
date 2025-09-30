@@ -99,10 +99,10 @@ export default function RootLayout({
             dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
           />
         </Head>
-      <link rel="preload" as="image" href="/icon.png"/>
+      <link rel="preload" as="image" href="/profai.jpeg"/>
       </head>
       <body suppressHydrationWarning
-        className={`${geistSans.variable} bg-black max-w-6xl m-auto ${geistMono.variable} antialiased`}
+        className={`${geistSans.variable} bg-black max-w-6xl mx-auto ${geistMono.variable} antialiased`}
       >
         {children}
       </body>

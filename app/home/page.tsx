@@ -31,7 +31,7 @@ export default function Pro(){
     ];
 
     return(
-        <div id="body" className="selection:bg-fuchsia-900/30 min-h-screen ">
+        <div id="body" className="selection:bg-fuchsia-900/30 min-h-screen">
                     <Header/>
             
             <main className="pt-20 sm:pt-24">
@@ -47,7 +47,7 @@ export default function Pro(){
                                 }`}>
                                     <div className="absolute inset-0 bg-gradient-to-r from-fuchsia-500 to-purple-600 rounded-full blur-xl opacity-20 group-hover:opacity-40 transition-opacity duration-500 animate-pulse" />
                         <Image
-                          src="/icon.png"
+                          src="/profai.jpeg"
                                         alt="Gantavya Bansal - AI + Fullstack Developer"
                                         width={400}
                                         height={400}
@@ -114,7 +114,7 @@ export default function Pro(){
                                     isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'
                                 }`}>
                                     <a 
-                                        href="/gantavya_bansal_resume.pdf" 
+                                        href="/Resume_Bansal_Gantavya_CSE.pdf" 
                                         download 
                                         target="_blank"
                                         className="inline-flex items-center space-x-2 sm:space-x-3 bg-gradient-to-r from-fuchsia-600 to-purple-600 hover:from-fuchsia-500 hover:to-purple-500 text-white px-6 sm:px-8 py-3 sm:py-4 rounded-xl font-semibold text-base sm:text-lg transition-all duration-300 hover:scale-105 hover:shadow-xl hover:shadow-fuchsia-500/25"

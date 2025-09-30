@@ -28,7 +28,7 @@ export function Header() {
     { href: "/home", label: "Home", icon: Home },
     { href: "/work", label: "Work", icon: Briefcase },
     { href: "/projects", label: "Projects", icon: FolderOpen },
-    { href: "/gantavya_bansal_resume.pdf", label: "Resume", icon: FileText, external: true }
+    { href: "/Resume_Bansal_Gantavya_CSE.pdf", label: "Resume", icon: FileText, external: true }
   ];
 
   return (
@@ -192,7 +192,7 @@ export function Footer() {
               {['Home', 'Work', 'Projects', 'Resume'].map((item, index) => (
                 <Link
                   key={item}
-                  href={item === 'Resume' ? '/gantavya_bansal_resume.pdf' : `/${item.toLowerCase()}`}
+                  href={item === 'Resume' ? '/Resume_Bansal_Gantavya_CSE.pdf' : `/${item.toLowerCase()}`}
                   className={`block text-gray-300 hover:text-fuchsia-300 transition-all duration-300 hover:translate-x-1 ${
                     isVisible ? 'opacity-100 translate-x-0' : 'opacity-0 translate-x-4'
                   }`}

@@ -28,7 +28,7 @@ export function MobileNav({ isOpen, onClose }: MobileNavProps) {
     { href: "/home", label: "Home", icon: Home, description: "Welcome to my portfolio" },
     { href: "/work", label: "Work", icon: Briefcase, description: "Professional experience" },
     { href: "/projects", label: "Projects", icon: FolderOpen, description: "Featured projects" },
-    { href: "/gantavya_bansal_resume.pdf", label: "Resume", icon: FileText, description: "Download my resume", external: true }
+    { href: "/Resume_Bansal_Gantavya_CSE.pdf", label: "Resume", icon: FileText, description: "Download my resume", external: true }
   ]
 
   const handleClose = () => {

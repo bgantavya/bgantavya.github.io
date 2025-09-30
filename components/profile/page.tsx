@@ -1,6 +1,6 @@
 'use client'
 import MagicPage from "../magic/page";
-import { Instagram, ExternalLink, Code, Trophy, Mail } from "lucide-react";
+// import { Instagram, ExternalLink, Code, Trophy, Mail } from "lucide-react";
 import { useEffect, useState } from "react";
 
 export default function Profile() {
@@ -24,32 +24,32 @@ export default function Profile() {
     return () => observer.disconnect();
   }, []);
 
-  const actionButtons = [
-    {
-      href: "https://leetcode.com/u/bgantavya",
-      icon: Code,
-      label: "LeetCode",
-      color: "hover:bg-orange-700/20 hover:border-orange-500/50"
-    },
-    {
-      href: "https://www.hackerrank.com/profile/gantavya_bansal1",
-      icon: Trophy,
-      label: "HackerRank",
-      color: "hover:bg-green-700/20 hover:border-green-500/50"
-    },
-    {
-      href: "https://instagram.com/bgantavya",
-      icon: Instagram,
-      label: "Instagram",
-      color: "hover:bg-pink-700/20 hover:border-pink-500/50"
-    },
-    {
-      href: "mailto:bgantavya@gmail.com",
-      icon: Mail,
-      label: "Email",
-      color: "hover:bg-pink-700/20 hover:border-pink-500/50"
-    }
-  ];
+  // const actionButtons = [
+  //   {
+  //     href: "https://leetcode.com/u/bgantavya",
+  //     icon: Code,
+  //     label: "LeetCode",
+  //     color: "hover:bg-orange-700/20 hover:border-orange-500/50"
+  //   },
+  //   {
+  //     href: "https://www.hackerrank.com/profile/gantavya_bansal1",
+  //     icon: Trophy,
+  //     label: "HackerRank",
+  //     color: "hover:bg-green-700/20 hover:border-green-500/50"
+  //   },
+  //   {
+  //     href: "https://instagram.com/bgantavya",
+  //     icon: Instagram,
+  //     label: "Instagram",
+  //     color: "hover:bg-pink-700/20 hover:border-pink-500/50"
+  //   },
+  //   {
+  //     href: "mailto:bgantavya@gmail.com",
+  //     icon: Mail,
+  //     label: "Email",
+  //     color: "hover:bg-pink-700/20 hover:border-pink-500/50"
+  //   }
+  // ];
 
   return (
     <section className="relative py-20 px-4">
@@ -130,7 +130,7 @@ export default function Profile() {
           </div>
 
           {/* Action Buttons */}
-          <div className={`flex w-full transition-all justify-end duration-1000 delay-500 ${
+          {/* <div className={`flex w-full transition-all justify-end duration-1000 delay-500 ${
             isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'
           }`}>
             <div className="flex flex-col sm:flex-row w-full gap-4 sm:gap-6 sm:justify-evenly">
@@ -159,7 +159,7 @@ export default function Profile() {
                 );
               })}
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
     </section>

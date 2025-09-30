@@ -15,8 +15,8 @@ export default function NetworkBackground() {
     canvas!.height = window.innerHeight
 
     const particles: Particle[] = []
-    const particleCount = canvas.width*.15 //< 800 ? 100 : 250 // Adjust particle count based on screen size
-    const connectionDistance = 150
+    const particleCount = canvas.width > 800 ? 180 : 120 // canvas.width*.15 //< 800 ? 100 : 250 // Adjust particle count based on screen size
+    const connectionDistance = 160
 
     let mouseX = -100
     let mouseY = -100
